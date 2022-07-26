@@ -11,6 +11,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+**/.DS_Store
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -46,12 +47,14 @@
 
 # CMake
 cmake-build-*/
+**/.DS_Store
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
+*.DS_Store
 
 # IntelliJ
 out/
@@ -87,6 +90,7 @@ fabric.properties
 # modules.xml
 # .idea/misc.xml
 # *.ipr
+*.DS_Store
 
 # Sonarlint plugin
 # https://plugins.jetbrains.com/plugin/7973-sonarlint
@@ -140,6 +144,7 @@ fabric.properties
 # .idea/modules
 # *.iml
 # *.ipr
+*.DS_Store
 
 # CMake
 
@@ -198,6 +203,8 @@ fabric.properties
 # .idea/modules
 # *.iml
 # *.ipr
+*.DS_Store
+**/.DS_Store
 
 # CMake
 
@@ -224,11 +231,13 @@ fabric.properties
 ### CLion+iml Patch ###
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 .idea/
+*.DS_Store
 *.txt
 *.iml
 modules.xml
 .idea/misc.xml
 *.ipr
+**/.DS_Store
 
 # End of https://www.toptal.com/developers/gitignore/api/clion,clion+iml,clion+all
 ## Ignore Visual Studio temporary files, build results, and
@@ -245,6 +254,7 @@ modules.xml
 *.vcxproj.filters
 *.userosscache
 *.sln.docstates
+**/.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -730,3 +740,4 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/clion
+.DS_Store
